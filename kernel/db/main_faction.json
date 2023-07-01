@@ -1,0 +1,51 @@
+{
+    "name": "Faction",
+    "mtm_data": {
+        "relationships": {
+            "model": "Faction",
+            "through": "FactionRelationship",
+            "from_id": "from_faction_id",
+            "target_id": "to_faction_id"
+        }
+    },
+    "mto_data": {},
+    "set_data": {
+        "character_set": {
+            "model": "Character",
+            "target_id": "faction_id"
+        },
+        "relationship_from_faction_set": {
+            "model": "FactionRelationship",
+            "target_id": "from_faction_id"
+        },
+        "relationship_to_faction_set": {
+            "model": "FactionRelationship",
+            "target_id": "to_faction_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "title": "camelot_faction",
+            "name": "Camelot"
+        },
+        "2": {
+            "id": 2,
+            "title": "saxons_faction",
+            "name": "Saxons"
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "name"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null,
+        "name": null
+    }
+}

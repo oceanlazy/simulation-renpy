@@ -1,0 +1,47 @@
+{
+    "name": "Settlement_positions",
+    "set_data": {},
+    "mtm_data": {},
+    "mto_data": {},
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "settlement_id": 1,
+            "settlementposition_id": 1
+        },
+        "2": {
+            "id": 2,
+            "settlement_id": 1,
+            "settlementposition_id": 2
+        },
+        "3": {
+            "id": 3,
+            "settlement_id": 1,
+            "settlementposition_id": 3
+        },
+        "4": {
+            "id": 4,
+            "settlement_id": 1,
+            "settlementposition_id": 4
+        },
+        "5": {
+            "id": 5,
+            "settlement_id": 2,
+            "settlementposition_id": 5
+        },
+        "6": {
+            "id": 6,
+            "settlement_id": 1,
+            "settlementposition_id": 6
+        }
+    },
+    "objects_fields": [
+        "id",
+        "settlement_id",
+        "settlementposition_id"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {}
+}

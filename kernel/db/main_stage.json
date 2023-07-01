@@ -1,0 +1,195 @@
+{
+    "name": "Stage",
+    "mtm_data": {},
+    "mto_data": {
+        "effects": {
+            "model": "PlanEffects",
+            "from_id": "effects_id"
+        },
+        "filters": {
+            "model": "PlanFilters",
+            "from_id": "filters_id"
+        },
+        "filters_plan_set": {
+            "model": "PlanSetFilters",
+            "from_id": "filters_plan_set_id"
+        },
+        "filters_place": {
+            "model": "PlanPlaceFilters",
+            "from_id": "filters_place_id"
+        },
+        "lock": {
+            "model": "PlanLock",
+            "from_id": "lock_id"
+        },
+        "plan_pause": {
+            "model": "PlanPause",
+            "from_id": "plan_pause_id"
+        }
+    },
+    "set_data": {
+        "stage_one_set": {
+            "model": "Plan",
+            "target_id": "one_id"
+        },
+        "stage_two_set": {
+            "model": "Plan",
+            "target_id": "two_id"
+        },
+        "stage_three_set": {
+            "model": "Plan",
+            "target_id": "three_id"
+        },
+        "stage_four_set": {
+            "model": "Plan",
+            "target_id": "four_id"
+        },
+        "stage_five_set": {
+            "model": "Plan",
+            "target_id": "five_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "title": "",
+            "effects_id": 1,
+            "filters_id": 1,
+            "filters_plan_set_id": 1,
+            "filters_place_id": null,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "2": {
+            "id": 2,
+            "title": "",
+            "effects_id": 3,
+            "filters_id": 3,
+            "filters_plan_set_id": null,
+            "filters_place_id": null,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "3": {
+            "id": 3,
+            "title": "",
+            "effects_id": null,
+            "filters_id": null,
+            "filters_plan_set_id": null,
+            "filters_place_id": 2,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "4": {
+            "id": 4,
+            "title": "",
+            "effects_id": 4,
+            "filters_id": 5,
+            "filters_plan_set_id": null,
+            "filters_place_id": null,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "5": {
+            "id": 5,
+            "title": "",
+            "effects_id": null,
+            "filters_id": null,
+            "filters_plan_set_id": null,
+            "filters_place_id": 3,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "6": {
+            "id": 6,
+            "title": "",
+            "effects_id": null,
+            "filters_id": 6,
+            "filters_plan_set_id": null,
+            "filters_place_id": null,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "7": {
+            "id": 7,
+            "title": "",
+            "effects_id": null,
+            "filters_id": null,
+            "filters_plan_set_id": null,
+            "filters_place_id": 2,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "8": {
+            "id": 8,
+            "title": "",
+            "effects_id": 5,
+            "filters_id": 8,
+            "filters_plan_set_id": null,
+            "filters_place_id": null,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "949": {
+            "id": 949,
+            "title": "",
+            "effects_id": 6,
+            "filters_id": 1,
+            "filters_plan_set_id": null,
+            "filters_place_id": null,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        },
+        "950": {
+            "id": 950,
+            "title": "",
+            "effects_id": null,
+            "filters_id": null,
+            "filters_plan_set_id": null,
+            "filters_place_id": 37,
+            "lock_id": null,
+            "plan_pause_id": null,
+            "is_optional": false,
+            "time_pause": null
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "effects_id",
+        "filters_id",
+        "filters_plan_set_id",
+        "filters_place_id",
+        "lock_id",
+        "plan_pause_id",
+        "is_optional",
+        "time_pause"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null,
+        "is_optional": false,
+        "time_pause": null
+    }
+}

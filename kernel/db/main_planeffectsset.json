@@ -1,0 +1,99 @@
+{
+    "name": "PlanEffectsSet",
+    "mtm_data": {},
+    "mto_data": {
+        "one": {
+            "model": "CharacterDataEffects",
+            "from_id": "one_id"
+        },
+        "two": {
+            "model": "CharacterDataEffects",
+            "from_id": "two_id"
+        },
+        "three": {
+            "model": "CharacterDataEffects",
+            "from_id": "three_id"
+        },
+        "four": {
+            "model": "CharacterDataEffects",
+            "from_id": "four_id"
+        },
+        "five": {
+            "model": "CharacterDataEffects",
+            "from_id": "five_id"
+        }
+    },
+    "set_data": {
+        "plan_effects_set_first_character_set": {
+            "model": "PlanEffects",
+            "target_id": "first_character_id"
+        },
+        "plan_effects_set_second_character_set": {
+            "model": "PlanEffects",
+            "target_id": "second_character_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "title": "relax",
+            "one_id": 1,
+            "two_id": null,
+            "three_id": null,
+            "four_id": null,
+            "five_id": null
+        },
+        "2": {
+            "id": 2,
+            "title": "small_talk",
+            "one_id": 2,
+            "two_id": null,
+            "three_id": null,
+            "four_id": null,
+            "five_id": null
+        },
+        "3": {
+            "id": 3,
+            "title": "sleep",
+            "one_id": 3,
+            "two_id": null,
+            "three_id": null,
+            "four_id": null,
+            "five_id": null
+        },
+        "4": {
+            "id": 4,
+            "title": "work",
+            "one_id": 4,
+            "two_id": null,
+            "three_id": null,
+            "four_id": null,
+            "five_id": null
+        },
+        "5": {
+            "id": 5,
+            "title": "waiting_game",
+            "one_id": 5,
+            "two_id": null,
+            "three_id": null,
+            "four_id": null,
+            "five_id": null
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "one_id",
+        "two_id",
+        "three_id",
+        "four_id",
+        "five_id"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Settlement",
+    "mtm_data": {
+        "positions": {
+            "model": "SettlementPosition",
+            "through": "Settlement_positions",
+            "from_id": "settlement_id",
+            "target_id": "settlementposition_id"
+        }
+    },
+    "mto_data": {},
+    "set_data": {
+        "character_set": {
+            "model": "Character",
+            "target_id": "settlement_id"
+        },
+        "place_set": {
+            "model": "Place",
+            "target_id": "settlement_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "title": "camelot",
+            "gold": 100,
+            "is_positions_set_required": false
+        },
+        "2": {
+            "id": 2,
+            "title": "wildrun",
+            "gold": 100,
+            "is_positions_set_required": false
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "gold",
+        "is_positions_set_required"
+    ],
+    "objects_effects_fields": [
+        "gold"
+    ],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null,
+        "gold": 1000,
+        "is_positions_set_required": false
+    }
+}

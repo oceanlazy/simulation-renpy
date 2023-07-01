@@ -1,0 +1,373 @@
+{
+    "name": "CharacterRelationship",
+    "mtm_data": {},
+    "mto_data": {
+        "from_character": {
+            "model": "Character",
+            "from_id": "from_character_id"
+        },
+        "to_character": {
+            "model": "Character",
+            "from_id": "to_character_id"
+        }
+    },
+    "set_data": {},
+    "time_fields": [],
+    "objects": {
+        "127": {
+            "id": 127,
+            "from_character_id": 1,
+            "to_character_id": 2,
+            "value": 500
+        },
+        "128": {
+            "id": 128,
+            "from_character_id": 1,
+            "to_character_id": 3,
+            "value": 500
+        },
+        "129": {
+            "id": 129,
+            "from_character_id": 1,
+            "to_character_id": 4,
+            "value": 500
+        },
+        "130": {
+            "id": 130,
+            "from_character_id": 1,
+            "to_character_id": 5,
+            "value": 500
+        },
+        "131": {
+            "id": 131,
+            "from_character_id": 1,
+            "to_character_id": 6,
+            "value": 500
+        },
+        "132": {
+            "id": 132,
+            "from_character_id": 1,
+            "to_character_id": 7,
+            "value": 500
+        },
+        "133": {
+            "id": 133,
+            "from_character_id": 2,
+            "to_character_id": 1,
+            "value": 500
+        },
+        "134": {
+            "id": 134,
+            "from_character_id": 2,
+            "to_character_id": 3,
+            "value": 590
+        },
+        "135": {
+            "id": 135,
+            "from_character_id": 2,
+            "to_character_id": 4,
+            "value": 605
+        },
+        "136": {
+            "id": 136,
+            "from_character_id": 2,
+            "to_character_id": 5,
+            "value": 590
+        },
+        "137": {
+            "id": 137,
+            "from_character_id": 2,
+            "to_character_id": 6,
+            "value": 500
+        },
+        "138": {
+            "id": 138,
+            "from_character_id": 2,
+            "to_character_id": 7,
+            "value": 560
+        },
+        "139": {
+            "id": 139,
+            "from_character_id": 3,
+            "to_character_id": 1,
+            "value": 500
+        },
+        "140": {
+            "id": 140,
+            "from_character_id": 3,
+            "to_character_id": 2,
+            "value": 610
+        },
+        "141": {
+            "id": 141,
+            "from_character_id": 3,
+            "to_character_id": 4,
+            "value": 595
+        },
+        "142": {
+            "id": 142,
+            "from_character_id": 3,
+            "to_character_id": 5,
+            "value": 590
+        },
+        "143": {
+            "id": 143,
+            "from_character_id": 3,
+            "to_character_id": 6,
+            "value": 500
+        },
+        "144": {
+            "id": 144,
+            "from_character_id": 3,
+            "to_character_id": 7,
+            "value": 550
+        },
+        "145": {
+            "id": 145,
+            "from_character_id": 4,
+            "to_character_id": 1,
+            "value": 500
+        },
+        "146": {
+            "id": 146,
+            "from_character_id": 4,
+            "to_character_id": 2,
+            "value": 615
+        },
+        "147": {
+            "id": 147,
+            "from_character_id": 4,
+            "to_character_id": 3,
+            "value": 585
+        },
+        "148": {
+            "id": 148,
+            "from_character_id": 4,
+            "to_character_id": 5,
+            "value": 585
+        },
+        "149": {
+            "id": 149,
+            "from_character_id": 4,
+            "to_character_id": 6,
+            "value": 500
+        },
+        "150": {
+            "id": 150,
+            "from_character_id": 4,
+            "to_character_id": 7,
+            "value": 560
+        },
+        "151": {
+            "id": 151,
+            "from_character_id": 5,
+            "to_character_id": 1,
+            "value": 500
+        },
+        "152": {
+            "id": 152,
+            "from_character_id": 5,
+            "to_character_id": 2,
+            "value": 570
+        },
+        "153": {
+            "id": 153,
+            "from_character_id": 5,
+            "to_character_id": 3,
+            "value": 570
+        },
+        "154": {
+            "id": 154,
+            "from_character_id": 5,
+            "to_character_id": 4,
+            "value": 555
+        },
+        "155": {
+            "id": 155,
+            "from_character_id": 5,
+            "to_character_id": 6,
+            "value": 500
+        },
+        "156": {
+            "id": 156,
+            "from_character_id": 5,
+            "to_character_id": 7,
+            "value": 500
+        },
+        "157": {
+            "id": 157,
+            "from_character_id": 6,
+            "to_character_id": 1,
+            "value": 500
+        },
+        "158": {
+            "id": 158,
+            "from_character_id": 6,
+            "to_character_id": 2,
+            "value": 500
+        },
+        "159": {
+            "id": 159,
+            "from_character_id": 6,
+            "to_character_id": 3,
+            "value": 500
+        },
+        "160": {
+            "id": 160,
+            "from_character_id": 6,
+            "to_character_id": 4,
+            "value": 500
+        },
+        "161": {
+            "id": 161,
+            "from_character_id": 6,
+            "to_character_id": 5,
+            "value": 500
+        },
+        "162": {
+            "id": 162,
+            "from_character_id": 6,
+            "to_character_id": 7,
+            "value": 500
+        },
+        "163": {
+            "id": 163,
+            "from_character_id": 7,
+            "to_character_id": 1,
+            "value": 500
+        },
+        "164": {
+            "id": 164,
+            "from_character_id": 7,
+            "to_character_id": 2,
+            "value": 560
+        },
+        "165": {
+            "id": 165,
+            "from_character_id": 7,
+            "to_character_id": 3,
+            "value": 530
+        },
+        "166": {
+            "id": 166,
+            "from_character_id": 7,
+            "to_character_id": 4,
+            "value": 560
+        },
+        "167": {
+            "id": 167,
+            "from_character_id": 7,
+            "to_character_id": 5,
+            "value": 500
+        },
+        "168": {
+            "id": 168,
+            "from_character_id": 7,
+            "to_character_id": 6,
+            "value": 500
+        },
+        "169": {
+            "id": 169,
+            "from_character_id": 1,
+            "to_character_id": 8,
+            "value": 500
+        },
+        "170": {
+            "id": 170,
+            "from_character_id": 2,
+            "to_character_id": 8,
+            "value": 545
+        },
+        "171": {
+            "id": 171,
+            "from_character_id": 3,
+            "to_character_id": 8,
+            "value": 545
+        },
+        "172": {
+            "id": 172,
+            "from_character_id": 4,
+            "to_character_id": 8,
+            "value": 540
+        },
+        "173": {
+            "id": 173,
+            "from_character_id": 5,
+            "to_character_id": 8,
+            "value": 555
+        },
+        "174": {
+            "id": 174,
+            "from_character_id": 6,
+            "to_character_id": 8,
+            "value": 500
+        },
+        "175": {
+            "id": 175,
+            "from_character_id": 7,
+            "to_character_id": 8,
+            "value": 500
+        },
+        "176": {
+            "id": 176,
+            "from_character_id": 8,
+            "to_character_id": 1,
+            "value": 500
+        },
+        "177": {
+            "id": 177,
+            "from_character_id": 8,
+            "to_character_id": 2,
+            "value": 555
+        },
+        "178": {
+            "id": 178,
+            "from_character_id": 8,
+            "to_character_id": 3,
+            "value": 555
+        },
+        "179": {
+            "id": 179,
+            "from_character_id": 8,
+            "to_character_id": 4,
+            "value": 540
+        },
+        "180": {
+            "id": 180,
+            "from_character_id": 8,
+            "to_character_id": 5,
+            "value": 585
+        },
+        "181": {
+            "id": 181,
+            "from_character_id": 8,
+            "to_character_id": 6,
+            "value": 500
+        },
+        "182": {
+            "id": 182,
+            "from_character_id": 8,
+            "to_character_id": 7,
+            "value": 500
+        }
+    },
+    "objects_fields": [
+        "id",
+        "from_character_id",
+        "to_character_id",
+        "value"
+    ],
+    "objects_effects_fields": [
+        "value"
+    ],
+    "attrs_ranges": {
+        "value": {
+            "min": 100,
+            "max": 1000
+        }
+    },
+    "defaults": {
+        "id": null,
+        "value": 500
+    }
+}

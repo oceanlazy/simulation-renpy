@@ -1,0 +1,51 @@
+{
+    "name": "Route",
+    "mtm_data": {},
+    "mto_data": {
+        "first_character": {
+            "model": "Character",
+            "from_id": "first_character_id"
+        },
+        "second_character": {
+            "model": "Character",
+            "from_id": "second_character_id"
+        },
+        "start_place": {
+            "model": "Place",
+            "from_id": "start_place_id"
+        }
+    },
+    "set_data": {
+        "plan_data_first_route_set": {
+            "model": "PlanData",
+            "target_id": "first_route_id"
+        },
+        "plan_data_second_route_set": {
+            "model": "PlanData",
+            "target_id": "second_route_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {},
+    "objects_fields": [
+        "id",
+        "first_character_id",
+        "second_character_id",
+        "start_place_id",
+        "is_targeted",
+        "route_distance",
+        "distance_passed",
+        "places",
+        "status"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "is_targeted": false,
+        "route_distance": 0.0,
+        "distance_passed": 0.0,
+        "places": {},
+        "status": "in_progress"
+    }
+}

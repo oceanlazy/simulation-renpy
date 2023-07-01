@@ -1,0 +1,228 @@
+{
+    "name": "CharacterDataFilters",
+    "mtm_data": {},
+    "mto_data": {},
+    "set_data": {
+        "plan_filters_first_character_set": {
+            "model": "PlanFilters",
+            "target_id": "first_character_id"
+        },
+        "plan_filters_second_character_set": {
+            "model": "PlanFilters",
+            "target_id": "second_character_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "title": "",
+            "is_interrupting": false,
+            "filters": {
+                "health__gt": 100
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": null,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "2": {
+            "id": 2,
+            "title": "check_relationships",
+            "is_interrupting": false,
+            "filters": {},
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": 300,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "3": {
+            "id": 3,
+            "title": "",
+            "is_interrupting": false,
+            "filters": {
+                "sleep__lt": 500
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": null,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "4": {
+            "id": 4,
+            "title": "",
+            "is_interrupting": false,
+            "filters": {
+                "sleep__lt": 1000
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": null,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "5": {
+            "id": 5,
+            "title": "small_talk",
+            "is_interrupting": false,
+            "filters": {
+                "plan_data_id__or": null,
+                "plan_data__plan__title__ne__or": "small_talk",
+                "place_id": "_place_id",
+                "title__ne": "player"
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": 500,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "6": {
+            "id": 6,
+            "title": "",
+            "is_interrupting": false,
+            "filters": {
+                "sleep__gt": 300,
+                "position__title": "peasant"
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": null,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "7": {
+            "id": 7,
+            "title": "",
+            "is_interrupting": false,
+            "filters": {
+                "sleep__gt": 300
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": null,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "8": {
+            "id": 8,
+            "title": "",
+            "is_interrupting": false,
+            "filters": {
+                "sleep__gt": 200
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": null,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        },
+        "9": {
+            "id": 9,
+            "title": "",
+            "is_interrupting": false,
+            "filters": {
+                "sleep__gte": 500
+            },
+            "plan_points_mods": {},
+            "acceptance_points_base": {},
+            "acceptance_points_mods": {},
+            "faction_opinion_min": null,
+            "faction_opinion_max": null,
+            "relationships_min": null,
+            "relationships_max": null,
+            "acceptance_points_min": null,
+            "acceptance_points_max": null,
+            "acceptance_points_mod_value": null
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "is_interrupting",
+        "filters",
+        "plan_points_mods",
+        "acceptance_points_base",
+        "acceptance_points_mods",
+        "faction_opinion_min",
+        "faction_opinion_max",
+        "relationships_min",
+        "relationships_max",
+        "acceptance_points_min",
+        "acceptance_points_max",
+        "acceptance_points_mod_value"
+    ],
+    "objects_effects_fields": [
+        "faction_opinion_min",
+        "faction_opinion_max",
+        "relationships_min",
+        "relationships_max",
+        "acceptance_points_min",
+        "acceptance_points_max"
+    ],
+    "attrs_ranges": {
+        "relationships_min": {
+            "min": 100,
+            "max": 1000
+        }
+    },
+    "defaults": {
+        "id": null,
+        "title": null,
+        "is_interrupting": false,
+        "filters": {},
+        "plan_points_mods": {},
+        "acceptance_points_base": {},
+        "acceptance_points_mods": {},
+        "faction_opinion_min": null,
+        "faction_opinion_max": null,
+        "relationships_min": null,
+        "relationships_max": null,
+        "acceptance_points_min": null,
+        "acceptance_points_max": null,
+        "acceptance_points_mod_value": null
+    }
+}

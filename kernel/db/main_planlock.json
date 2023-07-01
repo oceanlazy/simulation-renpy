@@ -1,0 +1,27 @@
+{
+    "name": "PlanLock",
+    "mtm_data": {},
+    "mto_data": {},
+    "set_data": {
+        "stage_set": {
+            "model": "Stage",
+            "target_id": "lock_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {},
+    "objects_fields": [
+        "id",
+        "title",
+        "close_filters",
+        "open_filters"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null,
+        "close_filters": {},
+        "open_filters": {}
+    }
+}

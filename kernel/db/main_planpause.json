@@ -1,0 +1,25 @@
+{
+    "name": "PlanPause",
+    "mtm_data": {},
+    "mto_data": {},
+    "set_data": {
+        "stage_set": {
+            "model": "Stage",
+            "target_id": "plan_pause_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {},
+    "objects_fields": [
+        "id",
+        "first",
+        "second"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "first": {},
+        "second": {}
+    }
+}

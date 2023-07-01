@@ -1,0 +1,67 @@
+{
+    "name": "PlanData",
+    "mtm_data": {},
+    "mto_data": {
+        "plan": {
+            "model": "Plan",
+            "from_id": "plan_id"
+        },
+        "first_character": {
+            "model": "Character",
+            "from_id": "first_character_id"
+        },
+        "second_character": {
+            "model": "Character",
+            "from_id": "second_character_id"
+        },
+        "first_previous": {
+            "model": "PlanData",
+            "from_id": "first_previous_id"
+        },
+        "second_previous": {
+            "model": "PlanData",
+            "from_id": "second_previous_id"
+        },
+        "first_route": {
+            "model": "Route",
+            "from_id": "first_route_id"
+        },
+        "second_route": {
+            "model": "Route",
+            "from_id": "second_route_id"
+        }
+    },
+    "set_data": {
+        "character_set": {
+            "model": "Character",
+            "target_id": "plan_data_id"
+        },
+        "plan_data_first_previous_set": {
+            "model": "PlanData",
+            "target_id": "first_previous_id"
+        },
+        "plan_data_second_previous_set": {
+            "model": "PlanData",
+            "target_id": "second_previous_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {},
+    "objects_fields": [
+        "id",
+        "plan_id",
+        "plan_stage",
+        "first_character_id",
+        "second_character_id",
+        "first_previous_id",
+        "second_previous_id",
+        "first_route_id",
+        "second_route_id"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "plan_stage": "one"
+    }
+}

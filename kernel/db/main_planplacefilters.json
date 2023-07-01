@@ -1,0 +1,99 @@
+{
+    "name": "PlanPlaceFilters",
+    "mtm_data": {},
+    "mto_data": {},
+    "set_data": {
+        "stage_set": {
+            "model": "Stage",
+            "target_id": "filters_place_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "2": {
+            "id": 2,
+            "title": "safe_settlement",
+            "is_random": true,
+            "is_nearest": false,
+            "is_teleportation": false,
+            "distance_penalty": 10,
+            "filters": {
+                "safety__gte": 500,
+                "settlement_id": "_settlement_id",
+                "place_type__in": [
+                    "street",
+                    "region"
+                ]
+            },
+            "attrs_importance": {},
+            "max_distance": 5
+        },
+        "3": {
+            "id": 3,
+            "title": "",
+            "is_random": false,
+            "is_nearest": false,
+            "is_teleportation": false,
+            "distance_penalty": 10,
+            "filters": {
+                "place_type": "bedroom",
+                "owner_id": "_id"
+            },
+            "attrs_importance": {},
+            "max_distance": null
+        },
+        "36": {
+            "id": 36,
+            "title": "place_not_current",
+            "is_random": false,
+            "is_nearest": true,
+            "is_teleportation": false,
+            "distance_penalty": 10,
+            "filters": {
+                "id__ne": "_place_id"
+            },
+            "attrs_importance": {},
+            "max_distance": null
+        },
+        "37": {
+            "id": 37,
+            "title": "place_not_current",
+            "is_random": false,
+            "is_nearest": true,
+            "is_teleportation": false,
+            "distance_penalty": 10,
+            "filters": {
+                "id__ne": "_place_id"
+            },
+            "attrs_importance": {},
+            "max_distance": null
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "is_random",
+        "is_nearest",
+        "is_teleportation",
+        "distance_penalty",
+        "filters",
+        "attrs_importance",
+        "max_distance"
+    ],
+    "objects_effects_fields": [
+        "distance_penalty",
+        "max_distance"
+    ],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null,
+        "is_random": false,
+        "is_nearest": false,
+        "is_teleportation": false,
+        "distance_penalty": 10,
+        "filters": {},
+        "attrs_importance": {},
+        "max_distance": null
+    }
+}

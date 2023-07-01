@@ -1,0 +1,176 @@
+{
+    "name": "CharacterDataEffects",
+    "mtm_data": {},
+    "mto_data": {},
+    "set_data": {
+        "effects_set_one_set": {
+            "model": "PlanEffectsSet",
+            "target_id": "one_id"
+        },
+        "effects_set_two_set": {
+            "model": "PlanEffectsSet",
+            "target_id": "two_id"
+        },
+        "effects_set_three_set": {
+            "model": "PlanEffectsSet",
+            "target_id": "three_id"
+        },
+        "effects_set_four_set": {
+            "model": "PlanEffectsSet",
+            "target_id": "four_id"
+        },
+        "effects_set_five_set": {
+            "model": "PlanEffectsSet",
+            "target_id": "five_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "title": "",
+            "effects": {
+                "health": 1
+            },
+            "effects_max": {},
+            "effects_mods": {},
+            "effects_mods_value": null,
+            "effects_place_mods": {},
+            "settlement_effects": {},
+            "settlement_effects_max": {},
+            "place_settlement_effects": {},
+            "place_settlement_effects_max": {},
+            "needs_mods": {},
+            "relationships_effects": null,
+            "relationships_effects_max": null,
+            "relationships_effects_min": null
+        },
+        "2": {
+            "id": 2,
+            "title": "",
+            "effects": {},
+            "effects_max": {},
+            "effects_mods": {},
+            "effects_mods_value": null,
+            "effects_place_mods": {},
+            "settlement_effects": {},
+            "settlement_effects_max": {},
+            "place_settlement_effects": {},
+            "place_settlement_effects_max": {},
+            "needs_mods": {},
+            "relationships_effects": 10.0,
+            "relationships_effects_max": null,
+            "relationships_effects_min": null
+        },
+        "3": {
+            "id": 3,
+            "title": "",
+            "effects": {
+                "sleep": 1,
+                "health": 0.14
+            },
+            "effects_max": {
+                "health": 500
+            },
+            "effects_mods": {},
+            "effects_mods_value": null,
+            "effects_place_mods": {},
+            "settlement_effects": {},
+            "settlement_effects_max": {},
+            "place_settlement_effects": {},
+            "place_settlement_effects_max": {},
+            "needs_mods": {
+                "sleep": 0
+            },
+            "relationships_effects": null,
+            "relationships_effects_max": null,
+            "relationships_effects_min": null
+        },
+        "4": {
+            "id": 4,
+            "title": "",
+            "effects": {},
+            "effects_max": {},
+            "effects_mods": {},
+            "effects_mods_value": null,
+            "effects_place_mods": {},
+            "settlement_effects": {},
+            "settlement_effects_max": {},
+            "place_settlement_effects": {},
+            "place_settlement_effects_max": {},
+            "needs_mods": {
+                "sleep": 3
+            },
+            "relationships_effects": null,
+            "relationships_effects_max": null,
+            "relationships_effects_min": null
+        },
+        "5": {
+            "id": 5,
+            "title": "waiting_game",
+            "effects": {
+                "energy": 3.33,
+                "health": 0.12,
+                "mood": 0.55
+            },
+            "effects_max": {
+                "health": 250,
+                "mood": 600,
+                "energy": 600
+            },
+            "effects_mods": {},
+            "effects_mods_value": null,
+            "effects_place_mods": {},
+            "settlement_effects": {},
+            "settlement_effects_max": {},
+            "place_settlement_effects": {},
+            "place_settlement_effects_max": {},
+            "needs_mods": {
+                "energy": 0,
+                "mood": 0.75
+            },
+            "relationships_effects": null,
+            "relationships_effects_max": null,
+            "relationships_effects_min": null
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "effects",
+        "effects_max",
+        "effects_mods",
+        "effects_mods_value",
+        "effects_place_mods",
+        "settlement_effects",
+        "settlement_effects_max",
+        "place_settlement_effects",
+        "place_settlement_effects_max",
+        "needs_mods",
+        "relationships_effects",
+        "relationships_effects_max",
+        "relationships_effects_min"
+    ],
+    "objects_effects_fields": [
+        "relationships_effects_max",
+        "relationships_effects_min"
+    ],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null,
+        "effects": {},
+        "effects_max": {},
+        "effects_mods": {},
+        "effects_mods_value": null,
+        "effects_place_mods": {},
+        "settlement_effects": {},
+        "settlement_effects_max": {},
+        "place_settlement_effects": {},
+        "place_settlement_effects_max": {},
+        "needs_mods": {},
+        "relationships_effects": null,
+        "relationships_effects_max": null,
+        "relationships_effects_min": null
+    }
+}

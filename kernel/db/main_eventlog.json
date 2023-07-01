@@ -1,0 +1,43 @@
+{
+    "name": "EventLog",
+    "mtm_data": {},
+    "mto_data": {
+        "plan": {
+            "model": "Plan",
+            "from_id": "plan_id"
+        },
+        "first_character": {
+            "model": "Character",
+            "from_id": "first_character_id"
+        },
+        "second_character": {
+            "model": "Character",
+            "from_id": "second_character_id"
+        },
+        "place": {
+            "model": "Place",
+            "from_id": "place_id"
+        }
+    },
+    "set_data": {},
+    "time_fields": [],
+    "objects": {},
+    "objects_fields": [
+        "id",
+        "is_important",
+        "timestamp",
+        "plan_id",
+        "first_character_id",
+        "second_character_id",
+        "place_id"
+    ],
+    "objects_effects_fields": [
+        "timestamp"
+    ],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "is_important": false,
+        "timestamp": null
+    }
+}

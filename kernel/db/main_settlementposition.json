@@ -1,0 +1,161 @@
+{
+    "name": "SettlementPosition",
+    "mtm_data": {},
+    "mto_data": {},
+    "set_data": {
+        "character_set": {
+            "model": "Character",
+            "target_id": "position_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "is_voting": false,
+            "title": "king",
+            "name": "King",
+            "name_female": "Queen",
+            "description": "A figure of great importance and reverence in Arthurian mythology and literature, and he represents the ideal of a just and virtuous monarch who serves his people with honor and integrity.",
+            "character_filters": {
+                "health__gte": 500,
+                "title": "arthur",
+                "faction__title": "camelot_faction"
+            },
+            "points_mods": {
+                "positive": {
+                    "avg": [
+                        "sleep",
+                        "health"
+                    ]
+                }
+            },
+            "value": 1000,
+            "min_number": 1,
+            "max_number": 1,
+            "population_ratio": 0.0
+        },
+        "2": {
+            "id": 2,
+            "is_voting": false,
+            "title": "knight",
+            "name": "Knight",
+            "name_female": "",
+            "description": "Knights are members of the legendary Knights of the Round Table, a group of noble warriors who pledge to serve and protect the King of Camelot and uphold the ideals of chivalry. These knights are depicted as being especially brave, virtuous, and loyal to one another.",
+            "character_filters": {
+                "health__gte": 500,
+                "faction__title": "camelot_faction",
+                "gender": "male"
+            },
+            "points_mods": {},
+            "value": 600,
+            "min_number": 1,
+            "max_number": null,
+            "population_ratio": 0.05
+        },
+        "3": {
+            "id": 3,
+            "is_voting": false,
+            "title": "mage",
+            "name": "Mage",
+            "name_female": "",
+            "description": "A court mage is one of great responsibility and influence, as they wield both magical and political power in service to the kingdom and its ruler.",
+            "character_filters": {
+                "title": "merlin",
+                "faction__title": "camelot_faction"
+            },
+            "points_mods": {},
+            "value": 750,
+            "min_number": 1,
+            "max_number": null,
+            "population_ratio": 0.0
+        },
+        "4": {
+            "id": 4,
+            "is_voting": false,
+            "title": "peasant",
+            "name": "Peasant",
+            "name_female": "",
+            "description": "Life as a medieval peasant was often harsh and difficult, with little hope for social or economic advancement. However, peasants were also known for their resilience and resourcefulness, and they played a crucial role in the functioning of medieval society.",
+            "character_filters": {
+                "faction__title": "camelot_faction"
+            },
+            "points_mods": {},
+            "value": 100,
+            "min_number": 1,
+            "max_number": null,
+            "population_ratio": 1.0
+        },
+        "5": {
+            "id": 5,
+            "is_voting": false,
+            "title": "barbarian",
+            "name": "Barbarian",
+            "name_female": "",
+            "description": "Formidable enemy of Camelot, representing a threat to the security and way of life of the kingdom.",
+            "character_filters": {
+                "faction__title": "saxons_faction"
+            },
+            "points_mods": {},
+            "value": 500,
+            "min_number": 1,
+            "max_number": null,
+            "population_ratio": 1.0
+        },
+        "6": {
+            "id": 6,
+            "is_voting": false,
+            "title": "noble",
+            "name": "Nobleman",
+            "name_female": "Noblewoman",
+            "description": "The nobles of Camelot are the wealthy and powerful families who hold positions of influence within the kingdom. They are known for their extravagance and their refined manners, and they often play a key role in the politics and governance of the kingdom. Despite their privilege, however, they are also subject to the laws and customs of the land, and are expected to uphold the ideals of justice and honor.",
+            "character_filters": {
+                "title": "isabella"
+            },
+            "points_mods": {},
+            "value": 500,
+            "min_number": 1,
+            "max_number": null,
+            "population_ratio": 0.1
+        }
+    },
+    "objects_fields": [
+        "id",
+        "is_voting",
+        "title",
+        "name",
+        "name_female",
+        "description",
+        "character_filters",
+        "points_mods",
+        "value",
+        "min_number",
+        "max_number",
+        "population_ratio"
+    ],
+    "objects_effects_fields": [
+        "value",
+        "min_number",
+        "max_number"
+    ],
+    "attrs_ranges": {
+        "value": {
+            "min": 100,
+            "max": 1000
+        }
+    },
+    "defaults": {
+        "id": null,
+        "is_voting": false,
+        "title": null,
+        "name": null,
+        "name_female": null,
+        "description": null,
+        "character_filters": {},
+        "points_mods": {},
+        "value": 500,
+        "min_number": 1,
+        "max_number": null,
+        "population_ratio": 0.0
+    }
+}

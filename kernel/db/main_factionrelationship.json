@@ -1,0 +1,49 @@
+{
+    "name": "FactionRelationship",
+    "mtm_data": {},
+    "mto_data": {
+        "from_faction": {
+            "model": "Faction",
+            "from_id": "from_faction_id"
+        },
+        "to_faction": {
+            "model": "Faction",
+            "from_id": "to_faction_id"
+        }
+    },
+    "set_data": {},
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "from_faction_id": 2,
+            "to_faction_id": 1,
+            "value": 200
+        },
+        "2": {
+            "id": 2,
+            "from_faction_id": 1,
+            "to_faction_id": 2,
+            "value": 300
+        }
+    },
+    "objects_fields": [
+        "id",
+        "from_faction_id",
+        "to_faction_id",
+        "value"
+    ],
+    "objects_effects_fields": [
+        "value"
+    ],
+    "attrs_ranges": {
+        "value": {
+            "min": 100,
+            "max": 1000
+        }
+    },
+    "defaults": {
+        "id": null,
+        "value": 500
+    }
+}

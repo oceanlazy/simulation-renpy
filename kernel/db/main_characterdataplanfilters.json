@@ -1,0 +1,41 @@
+{
+    "name": "CharacterDataPlanFilters",
+    "mtm_data": {},
+    "mto_data": {},
+    "set_data": {
+        "plan_filters_first_set": {
+            "model": "PlanSetFilters",
+            "target_id": "first_character_id"
+        },
+        "plan_filters_second_set": {
+            "model": "PlanSetFilters",
+            "target_id": "second_character_id"
+        }
+    },
+    "time_fields": [],
+    "objects": {
+        "1": {
+            "id": 1,
+            "title": "",
+            "filters": {
+                "is_char_available": true,
+                "title__ne": "relax"
+            },
+            "is_random_weighted": false
+        }
+    },
+    "objects_fields": [
+        "id",
+        "title",
+        "filters",
+        "is_random_weighted"
+    ],
+    "objects_effects_fields": [],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "title": null,
+        "filters": {},
+        "is_random_weighted": false
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "name": "PlanFilters",
+    "mtm_data": {},
+    "mto_data": {
+        "first_character": {
+            "model": "CharacterDataFilters",
+            "from_id": "first_character_id"
+        },
+        "second_character": {
+            "model": "CharacterDataFilters",
+            "from_id": "second_character_id"
+        }
+    },
+    "set_data": {
+        "plan_filters_set": {
+            "model": "Plan",
+            "target_id": "filters_id"
+        },
+        "stage_set": {
+            "model": "Stage",
+            "target_id": "filters_id"
+        }
+    },
+    "time_fields": [
+        "time_from",
+        "time_to",
+        "time_min",
+        "time_max"
+    ],
+    "objects": {
+        "1": {
+            "id": 1,
+            "first_character_id": 1,
+            "second_character_id": null,
+            "time_from": null,
+            "time_from_seconds": null,
+            "time_to": null,
+            "time_to_seconds": null,
+            "time_min": null,
+            "time_min_seconds": null,
+            "time_max": null,
+            "time_max_seconds": null,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "2": {
+            "id": 2,
+            "first_character_id": 1,
+            "second_character_id": 5,
+            "time_from": null,
+            "time_from_seconds": null,
+            "time_to": null,
+            "time_to_seconds": null,
+            "time_min": null,
+            "time_min_seconds": null,
+            "time_max": null,
+            "time_max_seconds": null,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "3": {
+            "id": 3,
+            "first_character_id": null,
+            "second_character_id": null,
+            "time_from": null,
+            "time_from_seconds": null,
+            "time_to": null,
+            "time_to_seconds": null,
+            "time_min": "00:03:00",
+            "time_min_seconds": 180,
+            "time_max": "00:07:00",
+            "time_max_seconds": 420,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "4": {
+            "id": 4,
+            "first_character_id": 3,
+            "second_character_id": null,
+            "time_from": "20:00:00",
+            "time_from_seconds": 72000,
+            "time_to": "04:00:00",
+            "time_to_seconds": 14400,
+            "time_min": null,
+            "time_min_seconds": null,
+            "time_max": null,
+            "time_max_seconds": null,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "5": {
+            "id": 5,
+            "first_character_id": 4,
+            "second_character_id": null,
+            "time_from": null,
+            "time_from_seconds": null,
+            "time_to": null,
+            "time_to_seconds": null,
+            "time_min": null,
+            "time_min_seconds": null,
+            "time_max": null,
+            "time_max_seconds": null,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "6": {
+            "id": 6,
+            "first_character_id": 8,
+            "second_character_id": null,
+            "time_from": null,
+            "time_from_seconds": null,
+            "time_to": null,
+            "time_to_seconds": null,
+            "time_min": "00:30:00",
+            "time_min_seconds": 1800,
+            "time_max": "01:00:00",
+            "time_max_seconds": 3600,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "7": {
+            "id": 7,
+            "first_character_id": 6,
+            "second_character_id": null,
+            "time_from": "09:00:00",
+            "time_from_seconds": 32400,
+            "time_to": "19:30:00",
+            "time_to_seconds": 70200,
+            "time_min": null,
+            "time_min_seconds": null,
+            "time_max": null,
+            "time_max_seconds": null,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "8": {
+            "id": 8,
+            "first_character_id": 7,
+            "second_character_id": null,
+            "time_from": null,
+            "time_from_seconds": null,
+            "time_to": null,
+            "time_to_seconds": null,
+            "time_min": "02:00:00",
+            "time_min_seconds": 7200,
+            "time_max": "05:00:00",
+            "time_max_seconds": 18000,
+            "is_time_points": false,
+            "is_group": true
+        },
+        "9": {
+            "id": 9,
+            "first_character_id": 9,
+            "second_character_id": null,
+            "time_from": null,
+            "time_from_seconds": null,
+            "time_to": null,
+            "time_to_seconds": null,
+            "time_min": null,
+            "time_min_seconds": null,
+            "time_max": null,
+            "time_max_seconds": null,
+            "is_time_points": false,
+            "is_group": true
+        }
+    },
+    "objects_fields": [
+        "id",
+        "first_character_id",
+        "second_character_id",
+        "time_from",
+        "time_from_seconds",
+        "time_to",
+        "time_to_seconds",
+        "time_min",
+        "time_min_seconds",
+        "time_max",
+        "time_max_seconds",
+        "is_time_points",
+        "is_group"
+    ],
+    "objects_effects_fields": [
+        "time_from_seconds",
+        "time_to_seconds",
+        "time_min_seconds",
+        "time_max_seconds"
+    ],
+    "attrs_ranges": {},
+    "defaults": {
+        "id": null,
+        "time_from": null,
+        "time_from_seconds": null,
+        "time_to": null,
+        "time_to_seconds": null,
+        "time_min": null,
+        "time_min_seconds": null,
+        "time_max": null,
+        "time_max_seconds": null,
+        "is_time_points": false,
+        "is_group": true
+    }
+}

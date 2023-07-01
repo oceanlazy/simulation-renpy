@@ -1,0 +1,7 @@
+*.log
+*.rpyc
+*.lnk
+*.idea
+errors.txt
+log.txt
+traceback.txt
